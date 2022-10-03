@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Pac-man</title>
+  </head>
+  <body>
+<B>PAC-MAN and BLINKY</B><br><br>
+
+<button type="reset" onclick="document.location.reload()">RESET</button><br><br>
+<button onclick="PacManBG()">GIANT PACMAN</button><br><br>
+<button onclick="BlinkyBG()">GIANT BLINKY</button><br>
+
+
+    <img
+      id="Jelly"
+      src="images/Jelly1.png"
+      width="175"
+      onclick="Run2()"
+      style="position: absolute"
+    />
+    <img
+      id="PacMan"
+      src="images/PacMan1.png"
+      width="220"
+      onclick="Run()"
+      style="position: absolute"
+    />
+
+    
+
+
+    <script src="./pacman.js"></script>
+    <script id="Buttons">
+
+        function PacManBG(){
+                let img = document.getElementById('PacMan')
+                    img.width = "500"
+                let img2 = document.getElementById('Jelly')
+                if (img2.style.top !== "0px"){
+                    img2.style.top = "0px"
+                }else {
+                    img2.style.top = "200px"
+                }
+                    setInterval(Run2, 50)
+            }
+        function BlinkyBG(){
+                let img2 = document.getElementById('Jelly')
+                    img2.width = "400"
+                let img = document.getElementById('PacMan')
+                    //img.style.top="300px"
+                    if (img.style.top !== "0px"){
+                        img.style.top = "0px"
+                    }else {
+                        img.style.top = "300px"
+                    }
+                    setInterval(Run, 50)
+
+            }
+    </script>
+
+  </body>
+</html>
