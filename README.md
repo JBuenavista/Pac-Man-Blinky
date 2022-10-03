@@ -1,2 +1,2 @@
 # Pac-Man-Blinky
-Pac-man  from MIT, modified by Joash and added Blinky character. 
+Pac-man  from MIT xPRO Full Stack Developer course, modified and added Blinky character by Joash Buenavista. 
