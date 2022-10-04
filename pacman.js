@@ -91,7 +91,7 @@ function Run2() {
 // TODO: Add a Javascript setInterval() method that will call the Run() function above every 200 milliseconds. Note: in the video, Dr. Williams uses the setTimeout() method, but here we are going to use a slightly different
 // method called setInterval(), so that you can have practice using this method.
 // Inside of the Run() function you will also have to add an extra argument "pageWidth", which is declared on line 4 when you call the checkPageBounds() function below. 
-setInterval(Run, 100)
+setInterval(Run, 150)
 
 setInterval(Run2, 300)
     //JB - we set the interval to at # milliseconds to run the function "Run" everytime
