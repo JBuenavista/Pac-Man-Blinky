@@ -76,7 +76,7 @@ function Run() {
 function Run2() {
     let img = document.getElementById('Jelly');
     let imgWidth = img.width;
-    focus2 = (focus2 + 1) % 2;
+    focus2 = (focus2 - 1) % 2;
     direction2 = checkPageBounds2(direction2, imgWidth, pos2, pageWidth);
     img.src = jellyArray[direction2][focus];
     if (direction2) {
