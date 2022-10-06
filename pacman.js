@@ -93,7 +93,7 @@ function Run2() {
 // Inside of the Run() function you will also have to add an extra argument "pageWidth", which is declared on line 4 when you call the checkPageBounds() function below. 
 setInterval(Run, 150)
 
-setInterval(Run2, 300)
+setInterval(Run2, 250)
     //JB - we set the interval to at # milliseconds to run the function "Run" everytime
 
 // This function determines the direction of PacMan based on screen edge detection. 
