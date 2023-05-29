@@ -8,10 +8,19 @@ This is a demonstration of two characters PAC-MAN and BLINKY chasing each other 
 This project was mainly developed by MIT as part of their exercise projects. My part was to complete missing sections of the code to make the PAC-MAN character run. In addition to PAC-MAN, I also added a new character named BLINKY. The project demonstrates my ability to replicate and modify the code on my own. Buttons were also developed by me.
 
 ## Installation:
-The program starts immediately as soon as it is opened.
+1. From this GitHub Page, click on the button that says "<> CODE". It's a dropdown menu.
+2. Select the "Download Zip" button.
+3. From your personal computer's download folder, unzip the folder.
+4. Open "Pac-Man-Blinky-main" folder
+5. Double click "index.html"
+6. It should open into a web browser for activity.
 
 ## Usage:
 The webpage automatically runs as soon as the page is opened. It demonstrates that the characters can grow in size when selecting the corresponding buttons. Every time the "Giant PacMan" or "Giant Blinky" buttons are pressed, the size not only changes but so does their speed. The reset button is there should the two characters get out of hand.
+1. There are 3 buttons: RESET, GIANT PACMAN, GIANT BLINKY.
+2. RESET resets any changes made
+3. GIANT PACMAN makes Pacman bigger and makes blinky run faster. Click it several times to see what happens.
+4. GIANT BLINKY makes Blinky bigger and makes packman run faster. Click it several times to see what happens.
 
 ## Support:
 No Support for this page
@@ -22,7 +31,7 @@ No further development is intended for this project
 ## License Information:
 MIT License
 
-Copyright (c) 2020 John Williams
+Copyright (c) 2022 Joash Buenavista
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
